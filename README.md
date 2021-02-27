@@ -5,4 +5,5 @@ TIA PORTAL and twincat 3 is uploaded so far. I used the same algorithm and struc
 
 For TIA PORTAL, I uploaded some screenshots from program. To communicate Factory IO and TIA PORTAL, PLC SIM is used. In program, a special FC is used and can be found in the official website of factory IO.
 
-For Twincat 3, Factory IO doesn't support direct connection. But you can configure modbus tcp communication between factory io and twincat 3.
+For Twincat 3, Factory IO doesn't support direct connection. But you can configure modbus tcp communication between factory io and twincat 3. If you want to simulate twincat 3 instead of real plc, you first need to install this file "win8settick.bat" under this path "C:\TwinCAT\3.1\System". The file can be located under different path depending on your system. Don't forget to reboot your system after installation. 
+
